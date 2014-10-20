@@ -24,7 +24,7 @@ Vagrant.configure("2") do |config|
 
     chef.json = {
 	  :aide => {
-		  :notify => "sysadmins@prometsource.com"
+		  :notify => "vincent@prometsource.com"
 		}
 	}
   end
